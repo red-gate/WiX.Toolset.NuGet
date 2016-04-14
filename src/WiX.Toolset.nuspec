@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata minClientVersion="2.7">
         <id>WiX.Toolset</id>
-        <version>3.8.1128.0</version>
+        <version>3.8.1128.1</version>
         <title>WiX Toolset (unofficial)</title>
         <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
         <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.).
@@ -10,13 +10,14 @@
         File issues with the NuGet package at https://github.com/akoeplinger/WiX.Toolset.NuGet
         </description>
         <authors>Rob Mensching,Bob Arnson</authors>
-        <owners>akoeplinger</owners>
-        <projectUrl>https://github.com/akoeplinger/WiX.Toolset.NuGet</projectUrl>
-        <licenseUrl>https://github.com/akoeplinger/WiX.Toolset.NuGet/blob/v3.8.1128.0/LICENSE.md</licenseUrl>
+        <owners>akoeplinger, nicolasvan</owners>
+        <projectUrl>https://github.com/red-gate/WiX.Toolset.NuGet</projectUrl>
+        <licenseUrl>https://github.com/red-gate/WiX.Toolset.NuGet/blob/v3.8/LICENSE.md</licenseUrl>
         <iconUrl>http://wixtoolset.org/Content/logo_framed.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>WiX MSI Installer XML</tags>
 		<releaseNotes>
+            v3.8.1128.1: Added loc\WixUI_en-us.wxl
 			The v3.8 RTM build is v3.8.1128.0.
 
 			For more information see: http://robmensching.com/blog/posts/2013/11/28/wix-v3.8-released and http://www.joyofsetup.com/2013/11/28/wix-v3-8-released/.
